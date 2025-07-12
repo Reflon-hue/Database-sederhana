@@ -1,0 +1,72 @@
+/* style.css */
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0f2027, #2c5364);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  max-width: 400px;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  backdrop-filter: blur(10px);
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 3px solid white;
+}
+
+.name {
+  font-size: 1.8rem;
+  margin-bottom: 0.3rem;
+}
+
+.bio {
+  font-size: 0.95rem;
+  color: #ccc;
+  margin-bottom: 1.5rem;
+}
+
+.links a,
+.youtube-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 0.4rem 0;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.links a:hover,
+.youtube-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.youtube-link {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
